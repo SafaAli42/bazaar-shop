@@ -40,7 +40,6 @@ const signup = function (request, response, next) {
                     wishlist: user.wishlist,
                     token
                 });
-                sendWelcomeMail(user.email);
             } else {
                 const error = new Error("Invalid User data");
                 error.status = 400;

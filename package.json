@@ -8,14 +8,7 @@
     "server": "nodemon BackEnd/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "16.15.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AhmedAbdAlRahmanAnwar/Ecommerce-API.git"
-  },
-  "author": "Ahmed Anwar",
+  "author": "Safa",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
